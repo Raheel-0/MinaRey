@@ -13,7 +13,6 @@ function preload() {
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
 	tex = loadImage('/yasminka.jpg');
-	song.play();
 
 }
 
@@ -39,5 +38,10 @@ function draw() {
 		v = min(90, max(-90, v + (mouseY - height / 2) / height));
 	}
 
+}
+
+function mousePressed() {
+    song.loop();	
+    song.play();
 }
 
