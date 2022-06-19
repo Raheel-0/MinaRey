@@ -5,7 +5,7 @@ let font;
 
 
 function preload() { 
-	song = loadSound('/Nandemonaiya & Sparkle - Kimi no Na wa. (Acoustic Guitar).m4a'); 
+	song = loadSound('/song.m4a'); 
 
 }
 
