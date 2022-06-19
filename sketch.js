@@ -5,7 +5,7 @@ let font;
 
 
 function preload() { 
-	song = loadSound('/song.m4a'); 
+	song = loadSound('/song.mp3'); 
 
 }
 
