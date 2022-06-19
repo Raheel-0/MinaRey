@@ -41,7 +41,8 @@ function draw() {
 }
 
 function mousePressed() {
-    song.loop();	
-    song.play();
+        if ( !song.isPlaying() ) { // .isPlaying() returns a boolean
+                song.play();
+        }
 }
 
