@@ -12,7 +12,7 @@ function preload() {
 
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
-	tex = loadImage('/yasminka.jpg');
+	tex = loadImage('yasminka.jpg');
 
 }
 
