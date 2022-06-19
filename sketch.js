@@ -5,14 +5,14 @@ let font;
 
 
 function preload() { 
-	song = loadSound('/Nandemonaiya & Sparkle - Kimi no Na wa. (Acoustic Guitar).m4a'); 
+	song = loadSound('Nandemonaiya & Sparkle - Kimi no Na wa. (Acoustic Guitar).m4a'); 
 
 }
 
 
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
-	tex = loadImage('/yasminka.jpg');
+	tex = loadImage('yasminka.jpg');
 	song.play();
 
 }
