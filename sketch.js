@@ -40,7 +40,7 @@ function draw() {
 
 }
 
-function mousePressed() {
+function touchStarted() {
         if ( !song.isPlaying() ) { // .isPlaying() returns a boolean
                 song.play();
         }
